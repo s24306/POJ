@@ -1,3 +1,5 @@
+package Zad1;
+
 public class Lab4Task1 {
     public static void main(String[] args) {
         Circle2D circleWithoutParameters = new Circle2D();
