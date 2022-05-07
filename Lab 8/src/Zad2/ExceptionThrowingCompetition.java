@@ -10,6 +10,6 @@ public class ExceptionThrowingCompetition {
     }
 
     public static void throwException() throws RuntimeException{
-        throw new RuntimeException("Error");
+        throw new RuntimeException("Runtime Error");
     }
 }
