@@ -5,7 +5,7 @@ public class Person {
     private String surname;
     private int dob;
 
-    public Person(String name, String surname, int dob) throws ExceptionInInitializerError{
+    public Person(String name, String surname, int dob){
         try {
             checkPersonData(name, surname, dob);
         } catch (Exception e){
